@@ -29,7 +29,7 @@ This base on the quick start app created like this:
 
 ### System dependencies
 
-1. Install [NodeJS](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node.md.
+1. Install [NodeJS](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node.md).
 2. Install Yarn globally.
     ```sh
     npm install -g yarn

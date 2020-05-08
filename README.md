@@ -1,6 +1,6 @@
 # Vue Quickstart
 
-[![Node.js CI](https://github.com/MichaelCurrin/vue-quickstart/workflows/Node.js%20CI/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
+[![CI](https://github.com/MichaelCurrin/vue-quickstart/workflows/CI/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
 [![Made with Node](https://img.shields.io/badge/Node->=10.X-blue.svg)](https://nodejs.org)
 [![Made with Vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-quickstart/vue)](https://www.npmjs.com/package/vue)
 

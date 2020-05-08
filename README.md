@@ -76,3 +76,8 @@ yarn lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Deploy
+
+This repo includes a Github workflow. This does a production deploy of the app but it does not persist the built site - this can be done by extending the workflow. Or use Netlify or similar to deploy and serve.

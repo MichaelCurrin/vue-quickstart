@@ -1,7 +1,5 @@
 {
-  "name": "my-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-js-quickstart",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

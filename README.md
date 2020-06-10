@@ -1,7 +1,7 @@
 # Vue.js Quickstart
 
 [![CI](https://github.com/MichaelCurrin/vue-js-quickstart/workflows/CI/badge.svg)](https://github.com/MichaelCurrin/vue-js-quickstart/actions)
-[![Made with Node](https://img.shields.io/badge/Node->=10.X-blue.svg)](https://nodejs.org)
+[![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue)](https://nodejs.org)
 [![Made with Vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-js-quickstart/vue)](https://www.npmjs.com/package/vue)
 
 
@@ -10,12 +10,11 @@
 Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue).
 
 
-## About
+## Create a Vue quickstart
 
-This base on the quick start app created like this:
+How use Vue's builtin quickstart, which was used to start this project.
 
-
-1. Install [Vue CLI](https://cli.vuejs.org/)
+1. Install [Vue CLI](https://cli.vuejs.org/).
     ```sh
     npm install -g @vue/cli
     # OR
@@ -45,14 +44,13 @@ This base on the quick start app created like this:
 yarn install
 ```
 
-### Other
+### Recommended extensions
 
-Recommended: Install an extension for VS Code for syntax highlighting of `.vue` files.
+Install an extension for VS Code for syntax highlighting of `.vue` files.
 
 
 ## Usage
 > How to run locally
-
 
 ### Run
 
@@ -91,4 +89,3 @@ This does a production build of the app but it does not persist the built site -
 ## License
 
 Released under [MIT](/LICENSE).
-

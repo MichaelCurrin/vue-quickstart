@@ -81,7 +81,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Deploy
 
-This repo includes a Github workflow to test the app - see [.git/worksflows](/.git/workflows/) directory.
+This repo includes a Github workflow to test the app - see the [worksflows](/.github/workflows/) directory.
 
 This does a production build of the app but it does not persist the built site - this can be done by extending the workflow. Or use Netlify or similar to deploy and serve.
 

@@ -31,7 +31,7 @@ This base on the quick start app created like this:
 
 ## Installation
 
-### System dependencies
+### Install system dependencies
 
 1. Install [NodeJS](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node.md).
 2. Install Yarn globally.
@@ -39,7 +39,7 @@ This base on the quick start app created like this:
     npm install -g yarn
     ```
     
-### Project dependencies
+### Install project dependencies
 
 ```sh
 yarn install
@@ -50,24 +50,27 @@ yarn install
 Recommended: Install an extension for VS Code for syntax highlighting of `.vue` files.
 
 
-
 ## Usage
-> Run locally
+> How to run locally
 
 
-### Compiles and hot-reloads for development
+### Run
+
+Compile and hot-reload for development
 
 ```sh
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Build
+
+Compile and minift for production
 
 ```sh
 yarn build
 ```
 
-### Lints and fixes files
+### Lint and fix
 
 ```sh
 yarn lint
@@ -80,4 +83,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Deploy
 
-This repo includes a Github workflow. This does a production deploy of the app but it does not persist the built site - this can be done by extending the workflow. Or use Netlify or similar to deploy and serve.
+This repo includes a Github workflow to test the app - see [.git/worksflows](/.git/workflows/) directory.
+
+This does a production build of the app but it does not persist the built site - this can be done by extending the workflow. Or use Netlify or similar to deploy and serve.
+
+
+## License
+
+Released under [MIT](/LICENSE).
+

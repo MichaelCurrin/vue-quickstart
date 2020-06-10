@@ -29,17 +29,21 @@ How use Vue's builtin quickstart, which was used to start this project.
     ```
 
 
+## Requirements
+
+- [Node.js](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node.md)
+- [Yarn](https://classic.yarnpkg.com/en/)
+
+
 ## Installation
 
 ### Install system dependencies
 
-1. Install [NodeJS](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node.md).
-2. Install Yarn globally.
-    ```sh
-    npm install -g yarn
-    ```
+Install Node.js and Yarn - see [gist](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee81449eb77375fcb).
     
 ### Install project dependencies
+
+From the project root, run:
 
 ```sh
 yarn install

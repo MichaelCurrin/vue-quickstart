@@ -5,8 +5,33 @@
 [![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue)](https://nodejs.org)
 [![Made with Vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-js-quickstart/vue)](https://www.npmjs.com/package/vue)
 
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-js-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-## Resources
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-js-quickstart/generate)
+
+<!--
+[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-js-quickstart/)
+-->
+
+## About
+
+### What is Vue?
+
+Vue is a JavaScript framework for building web interfaces. If you've heard of React - Vue is similar to React, but Vue is newer, more popular (in GH stars) and easier to learn.
+
+### How to use this project
+
+This project provides a quickstart Vue app, which doesn't do much but sets up the skeleton so you can create a Vue app. Here is what you can do:
+
+<!--
+- See the live demo served on GitHub Pages to see the site in action.
+-->
+
+- Click the _Use this Template_ button to add the project to your own repos, then run it locally and on GitHub pages.
+- Follow the [Create a fresh quickstart](#create-a-fresh-quickstart) section to create a new Vue app locally, using the Vue CLI.
+
+### Resources
 
 - Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue) in my Learn to Code project.
 - [vuejs.org](https://vuejs.org) homepage.
@@ -79,9 +104,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Deploy
 
-This repo includes a Github workflow to test the app - see the [worksflows](/.github/workflows/) directory.
+A Vue app needs a _build_ step to compile the scripts to plain JavaScript. This can be served then as static assets, without a Node.js server.
 
-This does a production build of the app but it does not persist the built site - this can be done by extending the workflow. Or use Netlify or similar to deploy and serve.
+This repo includes a Github workflow to **test** the app - see the [build_app.yml]/.github/workflows/build_app.yml) workflow file.
+
+This does a production build of the app, but it does **not** persist the built site for serving. But, that can be done by extending the workflow. Or, use Netlify or similar tools to deploy and serve.
 
 
 ## Create a fresh quickstart

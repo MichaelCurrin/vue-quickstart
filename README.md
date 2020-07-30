@@ -20,9 +20,11 @@
 
 Vue is a JavaScript framework for building web interfaces. If you've heard of React - Vue is similar to React, but Vue is newer, more popular (in GH stars) and easier to learn.
 
+This project provides a quickstart Vue app, which doesn't do much but sets up the skeleton so you can create a Vue app. See for example the minimal [src/App.vue](/src/App.vue) script which includes an HTML template, JavaScript code and CSS code.
+
 ### How to use this project
 
-This project provides a quickstart Vue app, which doesn't do much but sets up the skeleton so you can create a Vue app. Here is what you can do:
+Here is what you can do with this project:
 
 <!--
 - See the live demo served on GitHub Pages to see the site in action.

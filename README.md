@@ -8,25 +8,10 @@
 
 ## Resources
 
-Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue).
-
-
-## Create a Vue quickstart
-
-How use Vue's builtin quickstart, which was used to start this project.
-
-1. Install [Vue CLI](https://cli.vuejs.org/).
-    ```sh
-    npm install -g @vue/cli
-    # OR
-    yarn global add @vue/cli
-    ```
-2. Create base. You'll be asked a few questions, like choose between NPM or Yarn approach.
-    ```sh
-    vue create my-project
-    # OR
-    vue ui
-    ```
+- Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue) in my Learn to Code project.
+- [vuejs.org](https://vuejs.org) homepage.
+- [vue create](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) command in the docs.
+- [vue ui](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui) command in the commands.
 
 
 ## Requirements
@@ -39,44 +24,52 @@ How use Vue's builtin quickstart, which was used to start this project.
 
 ### Install system dependencies
 
-Install Node.js and Yarn - see [gist](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee81449eb77375fcb).
-    
+Install Node.js and Yarn - see these [gist instructions](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee81449eb77375fcb).
+
+### Clone
+
+Clone this repo, or your own project created from the template.
+
+```sh
+$ git@github.com:MichaelCurrin/vue-js-quickstart.git
+```
+
 ### Install project dependencies
 
 From the project root, run:
 
 ```sh
-yarn install
+$ yarn install
 ```
 
 ### Recommended extensions
 
-Install an extension for VS Code for syntax highlighting of `.vue` files.
+You can install an extension for VS Code for syntax highlighting of `.vue` files.
 
 
 ## Usage
-> How to run locally
+> How to run the Vue app locally
 
 ### Run
 
-Compile and hot-reload for development
+Compile and hot-reload for development.
 
 ```sh
-yarn serve
+$ yarn serve
 ```
 
 ### Build
 
-Compile and minift for production
+Compile and minify for production.
 
 ```sh
-yarn build
+$ yarn build
 ```
 
 ### Lint and fix
 
 ```sh
-yarn lint
+$ yarn lint
 ```
 
 ### Customize configuration
@@ -89,6 +82,56 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 This repo includes a Github workflow to test the app - see the [worksflows](/.github/workflows/) directory.
 
 This does a production build of the app but it does not persist the built site - this can be done by extending the workflow. Or use Netlify or similar to deploy and serve.
+
+
+## Create a fresh quickstart
+
+How use Vue's builtin quickstart CLI to create a new project. This flow was used originally as the base of this repo.
+
+Ensure you have NodeJS and optionally Yarn installed first.
+
+### Use npx
+
+Use this is install and run the vue CLI to create a new project. This will not persist any package in your global packages.
+
+```sh
+$ npx @vue/cli create --default my-project
+```
+
+
+### Install and run the CLI
+
+#### Install the CLI
+
+Install [Vue CLI](https://cli.vuejs.org/).
+
+This can be installed globally:
+
+```sh
+$ npm install -g @vue/cli
+$ # OR
+$ yarn global add @vue/cli
+```
+
+#### Use the create command
+
+Create the base. You'll be asked a few questions, like choose between NPM or Yarn approach.
+
+```sh
+$ vue create my-project
+```
+
+Add the `--default` flag to skip prompts.
+
+#### Use a GUI
+
+You can also create and manage projects using a graphical interface with the vue ui command:
+
+```sh
+$ vue ui
+```
+
+The above command will open a browser window with a GUI that guides you through the project creation process.
 
 
 ## License

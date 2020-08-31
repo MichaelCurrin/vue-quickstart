@@ -2,17 +2,23 @@
 > Minimal template for a Vue.js app - based on the Vue quickstart
 
 [![CI](https://github.com/MichaelCurrin/vue-js-quickstart/workflows/CI/badge.svg)](https://github.com/MichaelCurrin/vue-js-quickstart/actions)
-[![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue)](https://nodejs.org)
+[![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=javascript)](https://nodejs.org)
 [![Made with Vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-js-quickstart/vue)](https://www.npmjs.com/package/vue)
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-js-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+
+<div align="center">
+  
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-js-quickstart/generate)
+
+</div>
 
 <!--
 [![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-js-quickstart/)
 -->
+
 
 ## About
 

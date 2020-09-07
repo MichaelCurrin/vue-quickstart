@@ -1,7 +1,7 @@
 # Vue.js Quickstart
 > Minimal template for a Vue.js app - based on the Vue quickstart
 
-[![CI](https://github.com/MichaelCurrin/vue-js-quickstart/workflows/CI/badge.svg)](https://github.com/MichaelCurrin/vue-js-quickstart/actions)
+[![Node CI](https://github.com/MichaelCurrin/vue-js-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/vue-js-quickstart/actions)
 [![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=javascript)](https://nodejs.org)
 [![Made with Vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-js-quickstart/vue)](https://www.npmjs.com/package/vue)
 

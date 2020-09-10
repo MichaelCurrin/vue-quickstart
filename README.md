@@ -30,6 +30,10 @@
 
 </div>
 
+If you are looking for a multi-page Vue app template, see:
+
+- [MichaelCurrin/vue-router-quickstart](https://github.com/MichaelCurrin/vue-router-quickstart)
+
 
 ## About
 

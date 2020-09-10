@@ -22,7 +22,7 @@
 -->
 
 
-## Create a Vue project
+## Make your own Vue project
 
 <div align="center">
 
@@ -47,8 +47,9 @@ Here is what you can do with this project:
 - See the live demo served on GitHub Pages to see the site in action.
 -->
 
-- Click the _Use this Template_ button to add the project to your own repos, then run it locally and on GitHub pages.
-- Follow the [Create a fresh quickstart](#create-a-fresh-quickstart) section to create a new Vue app locally, using the Vue CLI.
+Click the _Use this Template_ button to add the project to your own repos, then run it locally and on GitHub pages.
+
+Follow the [Create a fresh quickstart](#create-a-fresh-quickstart) section to create a new Vue app locally, using the Vue CLI.
 
 ### Resources
 
@@ -76,6 +77,7 @@ Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/maste
 - Vue Router
     - [Homepage](https://router.vuejs.org)
     - [Getting Started](https://router.vuejs.org/guide/)
+    - [HTML5 History mode](https://router.vuejs.org/guide/essentials/history-mode.html)
 - Vuetify
     - [Homepage](https://vuetifyjs.com/)
         > Material Design Component Framework

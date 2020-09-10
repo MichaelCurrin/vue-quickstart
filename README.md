@@ -57,7 +57,7 @@ Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/maste
 - [Vue](https://vuejs.org) homepage
 - Vue CLI
     - [CLI](https://cli.vuejs.org/) homepage
-    - _Creating a Project_ doc page, for if you want to start a fresh project.
+    - [Creating a Project](https://cli.vuejs.org/guide/creating-a-project.html) doc page, for if you want to start a fresh project.
         - [Create app](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) command
             ```sh
             $ vue create hello-world
@@ -66,9 +66,21 @@ Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/maste
             ```sh
             $ vue ui
             ```
+    - [Plugins and presets](https://cli.vuejs.org/guide/plugins-and-presets.html)
+        - e.g.
+            ```sh
+            $ vue add eslint
+            $ vue add router
+            $ vue add vuetify
+            ```
 - Vue Router
     - [Homepage](https://router.vuejs.org)
     - [Getting Started](https://router.vuejs.org/guide/)
+- Vuetify
+    - [Homepage](https://vuetifyjs.com/)
+        > Material Design Component Framework
+        >
+        > Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips.
 
 
 ## Requirements

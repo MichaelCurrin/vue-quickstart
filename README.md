@@ -12,12 +12,17 @@
 ## Preview
 
 <div align="center">
-    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="600" />
+    <a href="https://github.com/MichaelCurrin/vue-js-quickstart/generate">
+        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="600" />
+    </a>
 </div>
 
 <!--
 [![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-js-quickstart/)
 -->
+
+
+## Create a Vue project
 
 <div align="center">
 
@@ -52,7 +57,7 @@ Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/maste
 - [Vue](https://vuejs.org) homepage
 - Vue CLI
     - [CLI](https://cli.vuejs.org/) homepage
-    - Creating a Project doc page
+    - _Creating a Project_ doc page, for if you want to start a fresh project.
         - [Create app](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) command
             ```sh
             $ vue create hello-world

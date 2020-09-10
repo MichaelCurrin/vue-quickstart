@@ -10,7 +10,7 @@
 
 
 <div align="center">
-  
+
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-js-quickstart/generate)
 
 </div>
@@ -18,6 +18,13 @@
 <!--
 [![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-js-quickstart/)
 -->
+
+
+## Preview
+
+<div align="center">
+    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+</div>
 
 
 ## About

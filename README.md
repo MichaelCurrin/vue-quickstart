@@ -1,5 +1,5 @@
 # Vue.js Quickstart
-> Minimal template for a Vue.js app - based on the Vue quickstart
+> Minimal template for a Vue.js app – based on the Vue CLI quickstart
 
 [![Node CI](https://github.com/MichaelCurrin/vue-js-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/vue-js-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-js-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
@@ -41,10 +41,23 @@ Here is what you can do with this project:
 
 ### Resources
 
-- Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue) in my Learn to Code project.
-- [vuejs.org](https://vuejs.org) homepage.
-- [vue create](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) command in the docs.
-- [vue ui](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui) command in the commands.
+Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue) in my Learn to Code project.
+
+- [Vue](https://vuejs.org) homepage
+- Vue CLI
+    - [CLI](https://cli.vuejs.org/) homepage
+    - Creating a Project doc page
+        - [Create app](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) command
+            ```sh
+            $ vue create hello-world
+            ```
+        - [Using the GUI](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui) command
+            ```sh
+            $ vue ui
+            ```
+- Vue Router
+    - [Homepage](https://router.vuejs.org)
+    - [Getting Started](https://router.vuejs.org/guide/)
 
 
 ## Requirements
@@ -59,7 +72,7 @@ Here is what you can do with this project:
 
 Install Node.js and Yarn - see these [gist instructions](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee81449eb77375fcb).
 
-### Clone
+### Clone repo
 
 Clone this repo, or your own project created from the template.
 

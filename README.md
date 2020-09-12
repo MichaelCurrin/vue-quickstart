@@ -30,7 +30,7 @@
 
 </div>
 
-If you are looking for a multi-page Vue app template, see:
+If you are looking for a multi-page Vue app template, see this repo:
 
 - [MichaelCurrin/vue-router-quickstart](https://github.com/MichaelCurrin/vue-router-quickstart)
 
@@ -96,22 +96,24 @@ Learn more about [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/maste
 
 
 ## Installation
+> How to setup the app locally
 
 ### Install system dependencies
 
 Install Node.js and Yarn - see these [gist instructions](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee81449eb77375fcb).
 
-### Clone repo
+### Clone
 
-Clone this repo, or your own project created from the template.
+Clone the repo - or your own repo generated from the template
 
 ```sh
-$ git@github.com:MichaelCurrin/vue-js-quickstart.git
+$ git clone git@github.com:MichaelCurrin/vue-js-quickstart.git
+$ cd vue-js-quickstart
 ```
 
 ### Install project dependencies
 
-From the project root, run:
+Install Node packages.
 
 ```sh
 $ yarn install
@@ -119,19 +121,23 @@ $ yarn install
 
 ### Recommended extensions
 
-You can install an extension for VS Code for syntax highlighting of `.vue` files.
+To add syntax highlighting of `.vue` files in VS Code, install an extension such as [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur).
 
 
 ## Usage
-> How to run the Vue app locally
+> How to run the app locally
 
 ### Run
 
-Compile and hot-reload for development.
+Compile and start a hot-reloading dev server.
 
 ```sh
 $ yarn serve
 ```
+
+Open in the browser:
+
+- https://localhost:8080
 
 ### Build
 
@@ -140,6 +146,8 @@ Compile and minify for production.
 ```sh
 $ yarn build
 ```
+
+View the output in the unversioned `dist` directory.
 
 ### Lint and fix
 
@@ -154,18 +162,18 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Deploy
 
-A Vue app needs a _build_ step to compile the scripts to plain JavaScript. This can be served then as static assets, without a Node.js server.
+A Vue app needs a _build_ step to compile the scripts to plain JavaScript. This output can then be served then a static asset directory, without a Node.js server running.
 
-This repo includes a Github workflow to **test** the app - see the [build_app.yml]/.github/workflows/build_app.yml) workflow file.
+This repo includes a GitHub workflow to build the app - see the [build_app.yml]/.github/workflows/build_app.yml) workflow file.
 
-This does a production build of the app, but it does **not** persist the built site for serving. But, that can be done by extending the workflow. Or, use Netlify or similar tools to deploy and serve.
+This does a production build of the app, but it does **not** persist the built site for serving on GitHub Pages. That can be done easily by extending the workflow. See this [workflow](https://github.com/MichaelCurrin/react-create-app-quickstart/blob/master/.github/workflows/main.yml) which deploys a React app. Or use Netlify instead.
 
 
 ## Create a fresh quickstart
 
 How use Vue's builtin quickstart CLI to create a new project. This flow was used originally as the base of this repo.
 
-Ensure you have NodeJS and optionally Yarn installed first.
+Ensure you have Node.js and optionally Yarn installed first.
 
 ### Use npx
 
@@ -174,7 +182,6 @@ Use this is install and run the vue CLI to create a new project. This will not p
 ```sh
 $ npx @vue/cli create --default my-project
 ```
-
 
 ### Install and run the CLI
 

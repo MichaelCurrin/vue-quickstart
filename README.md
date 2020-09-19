@@ -154,7 +154,7 @@ A Vue app needs a _build_ step to compile the scripts to plain JavaScript. This 
 
 This repo includes a GitHub Actions workflow to build and deploy to the `gh-pages` branch on GitHub, so it can be served using GitHub Pages. This is handled in the [main.yml](/.github/workflows/main.yml) workflow file.
 
-Note that in order to serve on a subpath on GH Pages, the project name is set in [vue.config.js](/vue.config.js).
+Note that in order to serve on a subpath on GH Pages, the project name is set in [vue.config.js](/vue.config.js). See this covered [here](https://cli.vuejs.org/config/#target-browsers) in the Vue docs.
 
 
 ## Create a fresh quickstart

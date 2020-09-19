@@ -13,7 +13,7 @@
 ## Preview
 
 <div align="center">
-    <a href="https://github.com/MichaelCurrin/vue-quickstart/generate">
+    <a href="https://michaelcurrin.github.io/vue-quickstart/">
         <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="600" />
     </a>
 </div>

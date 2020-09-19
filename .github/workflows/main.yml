@@ -21,9 +21,10 @@ jobs:
 
       - name: Lint 🧐
         run: yarn lint
-
-      - name: Test 🚨
-        run: yarn test
+      
+      # TODO: Add tests to your project generated from this template.
+      #- name: Test 🚨
+      #  run: yarn test
 
       - name: Build 🏗️
         run: yarn build

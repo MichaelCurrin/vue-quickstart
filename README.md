@@ -220,4 +220,4 @@ The above command will open a browser window with a GUI that guides you through 
 
 ## License
 
-Released under [UNLICENSE](/LICENSE).
+Released under [MIT](/LICENSE).

@@ -1,7 +1,7 @@
 # Vue.js Quickstart
 > Minimal Vue app template which uses CI to deploy to GitHub Pages
 
-[![Node CI](https://github.com/MichaelCurrin/vue-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
+[![GH Pages Deploy](![GH Pages Deploy](https://github.com/MichaelCurrin/vue-quickstart/workflows/GH%20Pages%20Deploy/badge.svg))](https://github.com/MichaelCurrin/vue-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
@@ -18,22 +18,14 @@
     </a>
 </div>
 
-<!--
-[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
--->
-
-
-## Make your own Vue project
+## Use this project
 
 <div align="center">
 
+[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-quickstart/generate)
 
 </div>
-
-If you are looking for a multi-page Vue app template, see this repo:
-
-- [MichaelCurrin/vue-router-quickstart](https://github.com/MichaelCurrin/vue-router-quickstart)
 
 
 ## About
@@ -44,17 +36,12 @@ Vue is a JavaScript framework for building web interfaces. If you've heard of Re
 
 This project provides a quickstart Vue app, which doesn't do much but sets up the skeleton so you can create a Vue app. See for example the minimal [src/App.vue](/src/App.vue) script which includes an HTML template, JavaScript code and CSS code.
 
-### How to use this project
+See the links at the top - view the live demo and then create your own repo from the template.
 
-Here is what you can do with this project:
+Or follow the [Create a fresh quickstart](#create-a-fresh-quickstart) section to create a new Vue app from scratch, using the Vue CLI.
 
-<!--
-- See the live demo served on GitHub Pages to see the site in action.
--->
+If you are looking for a multi-page Vue app template, see this repo - [MichaelCurrin/vue-router-quickstart](https://github.com/MichaelCurrin/vue-router-quickstart).
 
-Click the _Use this Template_ button to add the project to your own repos, then run it locally and on GitHub pages.
-
-Follow the [Create a fresh quickstart](#create-a-fresh-quickstart) section to create a new Vue app locally, using the Vue CLI.
 
 ### Resources
 

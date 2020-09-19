@@ -2,7 +2,7 @@
   "name": "vue-quickstart",
   "description": "Minimal Vue app template which uses CI to deploy to GitHub Pages",
   "version": "1.0.0",
-  "author" "MichaelCurrin",
+  "author": "MichaelCurrin",
   "license": "MIT",
   "homepage": "https://michaelcurrin.github.io/vue-quickstart/",
   "repository": {

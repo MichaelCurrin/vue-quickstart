@@ -152,9 +152,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 A Vue app needs a _build_ step to compile the scripts to plain JavaScript. This output can then be served then a static asset directory, without a Node.js server running.
 
-This repo includes a GitHub workflow to build the app - see the [build_app.yml]/.github/workflows/build_app.yml) workflow file.
+This repo includes a GitHub Actions workflow to build and deploy to the `gh-pages` branch on GitHub, so it can be served using GitHub Pages. This is handled in the [main.yml](/.github/workflows/main.yml) workflow file.
 
-This does a production build of the app, but it does **not** persist the built site for serving on GitHub Pages. That can be done easily by extending the workflow. See this [workflow](https://github.com/MichaelCurrin/react-create-app-quickstart/blob/master/.github/workflows/main.yml) which deploys a React app. Or use Netlify instead.
+Note that in order to serve on a subpath on GH Pages, the project name is set in [vue.config.js](/vue.config.js).
 
 
 ## Create a fresh quickstart

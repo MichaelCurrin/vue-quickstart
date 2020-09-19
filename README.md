@@ -1,24 +1,24 @@
 # Vue.js Quickstart
 > Minimal template for a Vue.js app – based on the Vue CLI quickstart
 
-[![Node CI](https://github.com/MichaelCurrin/vue-js-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/vue-js-quickstart/actions)
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-js-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
+[![Node CI](https://github.com/MichaelCurrin/vue-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=javascript)](https://nodejs.org)
-[![Made with Vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-js-quickstart/vue)](https://www.npmjs.com/package/vue)
+[![Made with Vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-quickstart/vue)](https://www.npmjs.com/package/vue)
 
 
 ## Preview
 
 <div align="center">
-    <a href="https://github.com/MichaelCurrin/vue-js-quickstart/generate">
+    <a href="https://github.com/MichaelCurrin/vue-quickstart/generate">
         <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="600" />
     </a>
 </div>
 
 <!--
-[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-js-quickstart/)
+[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
 -->
 
 
@@ -26,7 +26,7 @@
 
 <div align="center">
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-js-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-quickstart/generate)
 
 </div>
 
@@ -107,8 +107,8 @@ Install Node.js and Yarn - see these [gist instructions](https://gist.github.com
 Clone the repo - or your own repo generated from the template
 
 ```sh
-$ git clone git@github.com:MichaelCurrin/vue-js-quickstart.git
-$ cd vue-js-quickstart
+$ git clone git@github.com:MichaelCurrin/vue-quickstart.git
+$ cd vue-quickstart
 ```
 
 ### Install project dependencies

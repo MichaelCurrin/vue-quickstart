@@ -1,5 +1,5 @@
 # Vue.js Quickstart
-> Minimal template for a Vue.js app – based on the Vue CLI quickstart
+> Minimal Vue app template which uses CI to deploy to GitHub Pages
 
 [![Node CI](https://github.com/MichaelCurrin/vue-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)

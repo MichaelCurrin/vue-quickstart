@@ -13,7 +13,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint:fix": "vue-cli-service lint",
-    "lint:check": "vue-cli-service lint --no-fix"
+    "lint:check": "vue-cli-service lint --no-fix",
+    "version": "yarn run build",
+    "postversion": "git push --follow-tags"
   },
   "dependencies": {
     "core-js": "^3.6.4",

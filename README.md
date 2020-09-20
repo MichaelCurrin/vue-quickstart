@@ -28,6 +28,8 @@
 
 </div>
 
+After you've looked at the demo screenshot and site, you are welcome to create your own using the template button. This will fork this project and add it to your repos.
+
 
 ## Documentation
 > How to install and run the app and deploy it to GH Pages
@@ -41,9 +43,11 @@
 
 ## About
 
-What is Vue? Need are some resources to get started or learn more advanced topics?
+What is **Vue**? Need are some resources to get started or learn more advanced topics?
 
 See [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue) in my Learn to Code project.
+
+### Origin
 
 This project was created using:
 
@@ -52,6 +56,12 @@ $ npx @vue/cli create my-project
 ```
 
 See the [Creating a project](https://cli.vuejs.org/guide/creating-a-project.html) section of the docs.
+
+
+### Related projects
+
+- [React Quickstart](https://github.com/MichaelCurrin/react-quickstart/)
+- [Node Project Template](https://github.com/MichaelCurrin/node-project-template)
 
 
 ## License

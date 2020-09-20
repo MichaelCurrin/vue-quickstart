@@ -57,9 +57,33 @@ $ npx @vue/cli create my-project
 
 See the [Creating a project](https://cli.vuejs.org/guide/creating-a-project.html) section of the docs.
 
+This project used mostly default content from that command, but adds the following:
+
+- Sample image
+- Detailed docs
+- GH Pages setup
+- Linting with and without fixes
+- Prettier
+
+On the last point, the `prettier` package was added so that it can be used when linting to pick up inconsistent styling. For example:
+
+```
+...
+warning: Insert `;` (prettier/prettier) at vue.config.js:5:2:
+...
+```
+
+See these areas in [package.json](/package.json):
+
+- `eslint-plugin-prettier` package
+- `prettier` package
+- `@vue/prettier` in ESLint config
+
+That based on what you get in the Vue Router setup.
 
 ### Related projects
 
+- [Vue Router Quickstart](https://github.com/MichaelCurrin/vue-router-quickstart/)
 - [React Quickstart](https://github.com/MichaelCurrin/react-quickstart/)
 - [Node Project Template](https://github.com/MichaelCurrin/node-project-template)
 

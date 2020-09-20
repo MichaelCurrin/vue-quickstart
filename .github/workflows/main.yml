@@ -20,7 +20,7 @@ jobs:
         run: yarn install
 
       - name: Lint 🧐
-        run: yarn lint
+        run: yarn lint:check
 
       # TODO: Add tests to your project generated from this template.
       #- name: Test 🚨

@@ -18,6 +18,7 @@
     </a>
 </div>
 
+
 ## Use this project
 
 <div align="center">
@@ -101,7 +102,7 @@ $ cd vue-quickstart
 
 ### Install project dependencies
 
-Install Node packages.
+Install Node.js packages.
 
 ```sh
 $ yarn install
@@ -137,10 +138,18 @@ $ yarn build
 
 View the output in the unversioned `dist` directory.
 
-### Lint and fix
+### Lint
+
+Detect errors and warnings and fix where possible.
 
 ```sh
-$ yarn lint
+$ yarn lint:fix
+```
+
+Run linter but not fix up. Warnings will pass, but any errors will cause an error exit status - this is useful for a CI/CD flow.
+
+```sh
+$ yarn lint:check
 ```
 
 ### Customize configuration
@@ -149,12 +158,39 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ## Deploy
+> How to build and deploy this app to GitHub Pages
+
+### Run CI/CD with GitHub Actions
+
+This project uses a GitHub Actions flow for CI/CD.
+
+Just push or merge to master the workflow will build and deploy the app to the `gh-pages` branch.
+
+### Setup GH Pages
+
+Set this up to be served on GitHub Pages:
+
+1. Go to repo _Settings_.
+2. Go to _GitHub Pages_ section.
+3. Enable the site on `gh-pages` branch `root` directory.
+4. Wait for your site to build.
+5. Check the Actions tab on the repo for the status of the build.
+6. Open the public URl when it is done. e.g. https://MichaelCurrin.github.io/vue-quickstart
+
+### Notes
 
 A Vue app needs a _build_ step to compile the scripts to plain JavaScript. This output can then be served then a static asset directory, without a Node.js server running.
 
 This repo includes a GitHub Actions workflow to build and deploy to the `gh-pages` branch on GitHub, so it can be served using GitHub Pages. This is handled in the [main.yml](/.github/workflows/main.yml) workflow file.
 
 Note that in order to serve on a subpath on GH Pages, the project name is set in [vue.config.js](/vue.config.js). See this covered [here](https://cli.vuejs.org/config/#target-browsers) in the Vue docs.
+
+Optional for `.gitignore`, based on the Vue CLI quickstart.
+
+```
+.env.local
+.env.*.local
+```
 
 
 ## Create a fresh quickstart
@@ -173,34 +209,42 @@ $ npx @vue/cli create --default my-project
 
 ### Install and run the CLI
 
-#### Install the CLI
-
-Install [Vue CLI](https://cli.vuejs.org/).
-
-This can be installed globally:
-
-```sh
-$ npm install -g @vue/cli
-$ # OR
-$ yarn global add @vue/cli
-```
 
 #### Use the create command
 
-Create the base. You'll be asked a few questions, like choose between NPM or Yarn approach.
+Create a base Vue project. This will download vue CLI if not installed.
+
 
 ```sh
-$ vue create my-project
+$ npx vue create my-project
 ```
+
+You'll be asked a few questions, like choose between NPM or Yarn approach.
 
 Add the `--default` flag to skip prompts.
 
+
+#### Add Vue CLI to a project
+
+How to install [Vue CLI](https://cli.vuejs.org/).
+
+This can be installed globally:
+
+- NPM
+    ```sh
+    $ npm install -g @vue/cli
+    ```
+- Yarn
+    ```sh
+    $ yarn global add @vue/cli
+    ```
+
 #### Use a GUI
 
-You can also create and manage projects using a graphical interface with the vue ui command:
+You can also create and manage projects using a graphical interface with the `vue ui` command:
 
 ```sh
-$ vue ui
+$ npx vue ui
 ```
 
 The above command will open a browser window with a GUI that guides you through the project creation process.

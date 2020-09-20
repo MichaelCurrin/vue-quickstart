@@ -38,6 +38,7 @@
 
 </div>
 
+
 ## About
 
 What is Vue? Need are some resources to get started or learn more advanced topics?

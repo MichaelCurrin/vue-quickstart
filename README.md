@@ -30,9 +30,13 @@
 
 
 ## Documentation
+> How to install and run the app and deploy it to GH Pages
 
-To install and run the app and deploy it to GH Pages, see the [docs](/docs/) directory.
+<div align="center">
 
+[![View docs](https://img.shields.io/badge/go_to-docs-blue)](/docs/)
+
+</div>
 
 ## About
 

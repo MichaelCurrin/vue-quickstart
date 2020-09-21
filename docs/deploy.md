@@ -24,4 +24,4 @@ After a successful build, you can configure your site to be served on GitHub Pag
 3. Enable the site on `gh-pages` branch `root` directory.
 4. Wait for your site to build.
 5. Check the Actions tab on the repo for the status of the build.
-6. Open the public URl when it is done. e.g. https://MichaelCurrin.github.io/vue-quickstart
+6. Open the public URL when it is done. e.g. https://MichaelCurrin.github.io/vue-quickstart

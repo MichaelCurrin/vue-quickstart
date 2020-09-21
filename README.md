@@ -43,13 +43,25 @@ After you've looked at the demo screenshot and site, you are welcome to create y
 
 ## About
 
-What is **Vue**? Need are some resources to get started or learn more advanced topics?
+### What is Vue? 
+
+> Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+
+### Why not React?
+
+Vue is intended to be more beginner-friendly (I agree it is) and the [vue](https://github.com/vuejs/vue) repo has more GH stars than the [react](https://github.com/facebook/react) repo, if that is any indication of adoption by the community.
+
+Vue is open-source and was created by one person originally. React was created at Facebook.
+
+### Resources
+
+Need are some resources to get started or learn more advanced topics?
 
 See [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/frameworks.md#vue) in my Learn to Code project.
 
 ### Origin
 
-This project was created using:
+This project was created using the Vue CLI:
 
 ```sh
 $ npx @vue/cli create my-project

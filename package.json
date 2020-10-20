@@ -14,7 +14,7 @@
     "build": "vue-cli-service build",
     "lint:fix": "vue-cli-service lint",
     "lint:check": "vue-cli-service lint --no-fix",
-    "version": "yarn build",
+    "version": "npm run build",
     "postversion": "git push --follow-tags"
   },
   "dependencies": {

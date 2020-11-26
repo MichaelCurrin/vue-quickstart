@@ -30,6 +30,10 @@
 
 After you've looked at the demo screenshot and site, you are welcome to create your own using the template button. This will fork this project and add it to your repos.
 
+For Vue + TypeScript, see my other project:
+
+[![MichaelCurrin - vue-typescript-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-typescript-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-typescript-quickstart)
+
 
 ## Documentation
 > How to install and run the app and deploy it to GH Pages

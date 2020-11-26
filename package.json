@@ -10,11 +10,13 @@
     "url": "git+https://github.com/michaelcurrin/vue-quickstart.git"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint:fix": "vue-cli-service lint",
     "lint:check": "vue-cli-service lint --no-fix",
-    "version": "npm run build",
+    "serve": "vue-cli-service serve",
+    "start": "yarn serve",
+    "build": "vue-cli-service build",
+    "preversion": "git fetch --tags && yarn lint-check",
+    "version": "yarn build",
     "postversion": "git push --follow-tags"
   },
   "dependencies": {

@@ -1,14 +1,6 @@
 {
   "name": "vue-quickstart",
-  "description": "Minimal Vue app template which uses CI to deploy to GitHub Pages",
   "version": "2.3.0",
-  "author": "MichaelCurrin",
-  "license": "MIT",
-  "homepage": "https://michaelcurrin.github.io/vue-quickstart/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michaelcurrin/vue-quickstart.git"
-  },
   "scripts": {
     "lint:fix": "vue-cli-service lint",
     "lint:check": "vue-cli-service lint --no-fix",
@@ -35,6 +27,8 @@
     "prettier": "^2.1.1",
     "vue-template-compiler": "^2.6.11"
   },
+  "author": "MichaelCurrin",
+  "license": "MIT",
   "eslintConfig": {
     "root": true,
     "env": {

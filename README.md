@@ -1,9 +1,9 @@
-# Vue.js Quickstart
-> Minimal Vue app template which uses CI to deploy to GitHub Pages
+# Vue Quickstart
+> Starter template for a Vue 2 project - including docs and CI deploy to GH Pages
 
 [![GH Pages Deploy](https://github.com/MichaelCurrin/vue-quickstart/workflows/GH%20Pages%20Deploy/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Made with Yarn](https://img.shields.io/badge/Yarn->=1-blue?logo=yarn&logoColor=white)](https://classic.yarnpkg.com)
@@ -30,13 +30,9 @@
 
 After you've looked at the demo screenshot and site, you are welcome to create your own using the template button. This will fork this project and add it to your repos.
 
-For Vue + TypeScript, see my other project:
-
-[![MichaelCurrin - vue-typescript-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-typescript-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-typescript-quickstart)
-
 
 ## Documentation
-> How to install and run the app and deploy it to GH Pages
+> How to install and run the app locally and deploy it to GH Pages
 
 <div align="center">
 
@@ -97,13 +93,15 @@ See these areas in [package.json](/package.json):
 
 That based on what you get in the Vue Router setup.
 
-### Related projects
 
-- [Vue Router Quickstart](https://github.com/MichaelCurrin/vue-router-quickstart/)
-- [React Quickstart](https://github.com/MichaelCurrin/react-quickstart/)
+## Related projects
+
+- [Vue TypeScript Quickstart](https://github.com/MichaelCurrin/vue-typescript-quickstart)
+- [Vue Router Quickstart](https://github.com/MichaelCurrin/vue-router-quickstart)
+- [React Quickstart](https://github.com/MichaelCurrin/react-quickstart)
 - [Node Project Template](https://github.com/MichaelCurrin/node-project-template)
 
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).

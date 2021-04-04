@@ -96,10 +96,14 @@ That based on what you get in the Vue Router setup.
 
 ## Related projects
 
-- [Vue TypeScript Quickstart](https://github.com/MichaelCurrin/vue-typescript-quickstart)
-- [Vue Router Quickstart](https://github.com/MichaelCurrin/vue-router-quickstart)
-- [React Quickstart](https://github.com/MichaelCurrin/react-quickstart)
-- [Node Project Template](https://github.com/MichaelCurrin/node-project-template)
+- Vue-based projects:
+    - [Vue TypeScript Quickstart](https://github.com/MichaelCurrin/vue-typescript-quickstart) - like this project but with TypeScript added.
+    - [Vue Router Quickstart](https://github.com/MichaelCurrin/vue-router-quickstart) - like this project but with Vue Router added for a multi-page site.
+    - [VuePress Quickstart](https://github.com/MichaelCurrin/vuepress-quickstart) - using VuePress, a static site generator built on a Vue.
+    - [Nuxt Default Quickstart](https://github.com/MichaelCurrin/nuxt-default-quickstart) - using Nuxt, a mix between a SPA and a static site generator that is built on Vue.
+    - [Vue Frontend Quickstart](https://github.com/MichaelCurrin/vue-frontend-quickstart) - a simple site that uses Vue on the frontend without Node or build step.
+- [React Quickstart](https://github.com/MichaelCurrin/react-quickstart) - like this project, but using React instead of Vue.
+- [Node Project Template](https://github.com/MichaelCurrin/node-project-template) - a more generic Node template.
 
 
 ## License

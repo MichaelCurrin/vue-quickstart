@@ -23,7 +23,8 @@
 
 <div align="center">
 
-[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
+[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-blue?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
+
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-quickstart/generate)
 
 </div>
@@ -36,7 +37,7 @@ After you've looked at the demo screenshot and site, you are welcome to create y
 
 <div align="center">
 
-[![View docs](https://img.shields.io/badge/go_to-docs-blue)](/docs/)
+[![View docs](https://img.shields.io/badge/go_to-docs-blue?style=for-the-badge)](/docs/)
 
 </div>
 

@@ -37,7 +37,7 @@ After you've looked at the demo screenshot and site, you are welcome to create y
 
 <div align="center">
 
-[![View docs](https://img.shields.io/badge/go_to-docs-blue?style=for-the-badge)](/docs/)
+[![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](/docs/)
 
 </div>
 

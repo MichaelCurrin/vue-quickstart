@@ -23,7 +23,7 @@
 
 <div align="center">
 
-[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
+[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-quickstart/generate)
 
 </div>

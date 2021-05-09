@@ -1,5 +1,7 @@
 # Vue Quickstart
-> Starter template for a Vue 2 project - including docs and CI deploy to GH Pages
+> Starter template for a Vue 2 site - including docs and CI deploy to GH Pages
+
+<!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/ -->
 
 [![GH Pages Deploy](https://github.com/MichaelCurrin/vue-quickstart/workflows/GH%20Pages%20Deploy/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)

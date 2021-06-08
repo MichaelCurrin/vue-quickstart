@@ -66,6 +66,8 @@ See [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/s
 This project was created using the Vue CLI:
 
 ```sh
+$ vue create my-project
+$ # OR if not installed.
 $ npx @vue/cli create my-project
 ```
 

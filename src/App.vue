@@ -1,8 +1,7 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Vue.js Quickstart" />
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png" />
+
+  <HelloWorld msg="Vue.js Quickstart" />
 </template>
 
 <script>

@@ -2,7 +2,7 @@
 > Starter template for a Vue 3 site - including docs and CI deploy to GH Pages
 
 <!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/ -->
-[![GH Pages Deploy](https://github.com/MichaelCurrin/vue-quickstart/workflows/GH%20Pages%20Deploy/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
+[![Deploy GH Pages](https://github.com/MichaelCurrin/vue-quickstart/workflows/Deploy%20GH%20Pages/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 

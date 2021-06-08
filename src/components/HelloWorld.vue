@@ -6,7 +6,7 @@
     <p>
       <a href="https://github.com/MichaelCurrin/vue-quickstart/generate">
         <img
-          src="https://img.shields.io/badge/Use_this_template-41b883?style=for-the-badge&logo=github"
+          src="https://img.shields.io/badge/Generate-Use_this_template-41b883?logo=github&style=for-the-badge&labelColor=35495e"
           alt="Use this template"
           title="Use this template"
         />
@@ -14,14 +14,14 @@
       <br />
       <a href="https://github.com/MichaelCurrin/vue-quickstart/">
         <img
-          src="https://img.shields.io/badge/Repo-Vue_quickstart-41b883?logo=github&labelColor=35495e"
+          src="https://img.shields.io/badge/Repo-Vue_quickstart-41b883?logo=github&style=flat-square&labelColor=35495e"
           alt="GitHub repo"
           title="GitHub repo"
         />
       </a>
       <a href="https://www.npmjs.com/package/vue">
         <img
-          src="https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-quickstart/vue?logo=vue.js&color=41b883&labelColor=35495e"
+          src="https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/vue-quickstart/vue?logo=vue.js&style=flat-square&color=41b883&labelColor=35495e"
           alt="package - vue"
           title="package - vue"
         />
@@ -40,14 +40,6 @@
 
     <h3>Installed CLI Plugins</h3>
     <ul>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel</a
-        >
-      </li>
       <li>
         <a
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"

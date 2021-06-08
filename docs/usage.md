@@ -7,7 +7,7 @@
 Compile and start a hot-reloading dev server.
 
 ```sh
-$ yarn serve
+$ yarn start
 ```
 
 Open in the browser:
@@ -26,7 +26,7 @@ $ yarn build
 Now you can view the output in the unversioned `dist` directory.
 
 
-## Lint
+## Lint and format
 
 Detect errors and warnings and fix where possible.
 
@@ -34,7 +34,7 @@ Detect errors and warnings and fix where possible.
 $ yarn lint:fix
 ```
 
-Run linter but not fix up. Warnings will pass, but any errors will cause an error exit status - this is useful for a CI/CD flow.
+Run checks but do not fix up. Warnings will pass, but any errors will cause an error exit status - this is useful for a CI/CD flow.
 
 ```sh
 $ yarn lint:check

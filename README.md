@@ -1,8 +1,7 @@
 # Vue Quickstart
-> Starter template for a Vue 2 site - including docs and CI deploy to GH Pages
+> Starter template for a Vue 3 site - including docs and CI deploy to GH Pages
 
 <!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/ -->
-
 [![GH Pages Deploy](https://github.com/MichaelCurrin/vue-quickstart/workflows/GH%20Pages%20Deploy/badge.svg)](https://github.com/MichaelCurrin/vue-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-quickstart)](https://github.com/MichaelCurrin/vue-js-quickstart/tags/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
@@ -46,7 +45,7 @@ After you've looked at the demo screenshot and site, you are welcome to create y
 
 ## About
 
-### What is Vue? 
+### What is Vue?
 
 > Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
@@ -67,6 +66,8 @@ See [Vue](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/s
 This project was created using the Vue CLI:
 
 ```sh
+$ vue create my-project
+$ # OR if not installed.
 $ npx @vue/cli create my-project
 ```
 
@@ -102,6 +103,7 @@ That based on what you get in the Vue Router setup.
 - Vue-based projects:
     - [Vue TypeScript Quickstart](https://github.com/MichaelCurrin/vue-typescript-quickstart) - like this project but with TypeScript added.
     - [Vue Router Quickstart](https://github.com/MichaelCurrin/vue-router-quickstart) - like this project but with Vue Router added for a multi-page site.
+    - [Vue Vuex Quickstart](https://github.com/MichaelCurrin/vue-vuex-quickstart) - like this project but with Vuex added.
     - [VuePress Quickstart](https://github.com/MichaelCurrin/vuepress-quickstart) - using VuePress, a static site generator built on a Vue.
     - [Nuxt Default Quickstart](https://github.com/MichaelCurrin/nuxt-default-quickstart) - using Nuxt, a mix between a SPA and a static site generator that is built on Vue.
     - [Vue Frontend Quickstart](https://github.com/MichaelCurrin/vue-frontend-quickstart) - a simple site that uses Vue on the frontend without Node or build step.

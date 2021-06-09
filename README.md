@@ -24,13 +24,13 @@
 
 <div align="center">
 
-[![View site GH Pages](https://img.shields.io/badge/Demo_site-GH_Pages-blue?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
+[![View site GH Pages](https://img.shields.io/badge/View-Demo_site-blue?style=for-the-badge)](https://michaelcurrin.github.io/vue-quickstart/)
 
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-quickstart/generate)
 
 </div>
 
-After you've looked at the demo screenshot and site, you are welcome to create your own using the template button. This will fork this project and add it to your repos.
+After you've looked at the demo screenshot and site, you are welcome to create your own using the template button. This will copy this project and add it to your repos (no forking needed, but please star the original repo).
 
 
 ## Documentation

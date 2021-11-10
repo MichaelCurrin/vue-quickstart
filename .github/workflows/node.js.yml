@@ -21,7 +21,7 @@ jobs:
 
       - name: Check for outdated packages
         run: |
-          OUTDATED=$(npm outdated)
+          OUTDATED=$(npm outdated) || true
 
       - name: Upgrade packages
         run: npm update

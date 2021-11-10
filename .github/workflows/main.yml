@@ -1,15 +1,15 @@
 name: Deploy GH Pages
 
-# on:
-#   push:
-#     branches: master
-#     paths-ignore:
-#       - "docs/**"
+on:
+  push:
+    branches: master
+    paths-ignore:
+      - "docs/**"
 
-#   pull_request:
-#     branches: master
-#     paths-ignore:
-#       - "docs/**"
+  pull_request:
+    branches: master
+    paths-ignore:
+      - "docs/**"
 
 jobs:
   build-deploy:

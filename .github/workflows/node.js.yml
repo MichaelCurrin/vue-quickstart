@@ -1,27 +1,30 @@
 name: Upgrade NPM packages
 
-on: workflow_dispatch
+on:
+  push:
+# on: workflow_dispatch
 
 jobs:
   upgrade-packages:
     name: Upgrade packages
-    
+
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-    
+
       - name: Set up Node.js ⚙️
         uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
-        
+          node-version: "16.x"
+
       - name: Check for outdated packages
-        run: npm outdated
-        
+        run: |
+          OUTDATED=$(npm outdated)
+
       - name: Upgrade packages
         run: npm update
-        
+
       - name: Commit and create PR
         uses: peter-evans/create-pull-request@v3
